@@ -8,9 +8,6 @@ System::System()
 
 System::System(const System &obj)
 {
-    if (&obj == this)
-        return;
-
     name = obj.getName();
     value = obj.getValue();
 };
