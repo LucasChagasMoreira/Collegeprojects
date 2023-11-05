@@ -11,9 +11,6 @@ Model::Model(const string name) : name(name) {}
 
 Model::Model(const Model &obj)
 {
-    if (&obj == this)
-        return;
-
     name = obj.getName();
 }
 
