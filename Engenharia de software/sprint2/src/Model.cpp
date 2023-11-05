@@ -9,7 +9,7 @@ Model::Model()
 
 Model::Model(const string name) : name(name) {}
 
-Model::Model(Model &obj)
+Model::Model(const Model &obj)
 {
     if (&obj == this)
         return;
