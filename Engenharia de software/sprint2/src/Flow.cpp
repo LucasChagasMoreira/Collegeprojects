@@ -9,9 +9,6 @@ Flow::Flow()
 
 Flow::Flow(const Flow &obj)
 {
-    if (&obj == this)
-        return;
-
     name = obj.getName();
     origin = obj.getOrigin();
     target = obj.getTarget();
