@@ -7,7 +7,7 @@ Flow::Flow()
     target = NULL;
 }
 
-Flow::Flow(Flow &obj)
+Flow::Flow(const Flow &obj)
 {
     if (&obj == this)
         return;
