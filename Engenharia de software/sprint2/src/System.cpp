@@ -6,7 +6,7 @@ System::System()
     value = 0;
 }
 
-System::System(System &obj)
+System::System(const System &obj)
 {
     if (&obj == this)
         return;
