@@ -22,7 +22,7 @@
             System(double value);
             System(const string name, double value);
 
-            System(System &obj);
+            System(const System &obj);
             System &operator=(const System &obj);
 
             string getName() const;

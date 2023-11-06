@@ -26,7 +26,7 @@
         public:
             Model(const string name);
 
-            Model(Model &obj);
+            Model(const Model &obj);
             Model &operator=(const Model &obj);
 
             typedef typename vector<Flow *>::iterator itFlow;

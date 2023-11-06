@@ -18,7 +18,7 @@ class Flow
         public:
             Flow(const string name, System *origin, System *target);
 
-            Flow(Flow &obj);
+            Flow(const Flow &obj);
             Flow &operator=(const Flow &obj);
 
             string getName() const;
