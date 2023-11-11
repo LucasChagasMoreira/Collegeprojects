@@ -125,7 +125,7 @@ void Model::run(int ini_time, int fin_time)
         flow_values.push_back(flow_init_value);
     
     int i, j;
-    for (int time_count = ini_time; time_count <= fin_time; time_count++)
+    for (int time_count = ini_time; time_count < fin_time; time_count++)
     {
         i = 0;
         flow_iterator = flow_list.begin();

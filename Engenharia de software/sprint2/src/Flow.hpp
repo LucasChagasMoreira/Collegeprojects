@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 #include "System.hpp"
-
+/// @brief A Flow is a connection between two systems.
 class Flow
 {
         public:
@@ -27,6 +27,10 @@ class Flow
             void setOrigin(System *origin);
             System *getTarget() const;
             void setTarget(System *target);
+
+
+            /// @brief Virtual function to be implemented.
+            
             virtual double execute() = 0;
             
 };

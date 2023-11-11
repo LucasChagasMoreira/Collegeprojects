@@ -1,11 +1,12 @@
 #ifndef FUNCIONAL_TESTS_HPP
     #define FUNCIONAL_TESTS_HPP
 
-    #include "/home/lucas/Documents/GitHub/TPs/Engenharia de software/sprint2/src/Model.hpp"
-    #include "/home/lucas/Documents/GitHub/TPs/Engenharia de software/sprint2/src/System.hpp"
-    #include "/home/lucas/Documents/GitHub/TPs/Engenharia de software/sprint2/src/Flow.hpp"
-    #include "/home/lucas/Documents/GitHub/TPs/Engenharia de software/sprint2/src/ExpoFlow.hpp"
-    #include "/home/lucas/Documents/GitHub/TPs/Engenharia de software/sprint2/src/LogisFlow.hpp"
+    
+    #include "../../src/Model.hpp"
+    #include "../../src/System.hpp"
+    #include "../../src/Flow.hpp"
+    #include "ExpoFlow.hpp"
+    #include "LogisFlow.hpp"
 
     #include <assert.h>
     #include <cmath>

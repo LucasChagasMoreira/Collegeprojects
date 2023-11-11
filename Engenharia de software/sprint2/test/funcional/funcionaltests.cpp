@@ -12,8 +12,8 @@ void exponentialFuncionalTest()
     model->add(system2);
     model->add(flow);
 
-    model->run(0, 99);
-
+    model->run(0, 100);
+    
     assert(fabs(system1->getValue() - 36.6032) < 0.0001);
     assert(fabs(system2->getValue() - 63.3968) < 0.0001);
 
@@ -38,7 +38,7 @@ void logisticalFuncionalTest()
     model->add(system2);
     model->add(flow);
 
-    model->run(0, 99);
+    model->run(0, 100);
 
     assert(fabs(system1->getValue() - 88.2167) < 0.0001);
     assert(fabs(system2->getValue() - 21.7833) < 0.0001);
@@ -80,7 +80,7 @@ void complexFuncionalTest()
     model->add(g);
     model->add(r);
 
-    model->run(0, 99);
+    model->run(0, 100);
 
     assert(fabs(q1->getValue() - 31.8513) < 0.0001);
     assert(fabs(q2->getValue() - 18.4003) < 0.0001);

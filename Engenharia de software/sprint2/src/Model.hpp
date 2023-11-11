@@ -1,5 +1,5 @@
 #ifndef MODEL_HPP
-    #define MODEL_HPP
+#define MODEL_HPP
 
     #include <cstring>
     #include <ostream>
@@ -9,11 +9,12 @@
     #include "System.hpp"
     #include "Model.hpp"
 
-    /// A Model is what integrates flows and systems.
-    ///
-    /// By creating a model, you can run() simulations.
+    /// @brief A Model unites flows and systems. By creating a model, you can run() method to start the simulations.
+
     class Model
     {
+        private:
+            Model &operator=(const Model &obj);
         public:
             Model();
             virtual ~Model();
@@ -27,7 +28,7 @@
             Model(const string name);
 
             Model(const Model &obj);
-            Model &operator=(const Model &obj);
+            
 
             typedef typename vector<Flow *>::iterator itFlow;
             typedef typename vector<System *>::iterator itSystem;
@@ -50,6 +51,9 @@
             void clear();
             void show();
             
+            /// @brief Run a model simulation by passing the time information.
+            /// @param ini_time  Initial time.
+            /// @param fin_time  Final time.
             void run(int, int);
     };
 #endif
