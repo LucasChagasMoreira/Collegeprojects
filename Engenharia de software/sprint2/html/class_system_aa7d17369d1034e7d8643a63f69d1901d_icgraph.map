@@ -1,6 +1,0 @@
-<map id="System::getValue" name="System::getValue">
-<area shape="rect" id="node1" title=" " alt="" coords="184,56,309,83"/>
-<area shape="rect" id="node2" href="$class_system.html#a93f350faa6efd0b1eca2bfc2c73c8cd6" title=" " alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node3" href="$class_model.html#ad2aa6a16b08d37cec782b84245434f2b" title="Run a model simulation by passing the time information." alt="" coords="29,56,112,83"/>
-<area shape="rect" id="node4" href="$class_system.html#ae85f88a65a564ff9b3308b05d8fd1fa2" title=" " alt="" coords="11,107,131,133"/>
-</map>

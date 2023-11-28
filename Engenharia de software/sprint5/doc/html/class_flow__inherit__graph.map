@@ -1,0 +1,5 @@
+<map id="Flow" name="Flow">
+<area shape="rect" id="node1" title="A Flow is a connection between two systems." alt="" coords="77,5,190,273"/>
+<area shape="rect" id="node2" href="$class_expo___flow.html" title="A Class that inherits &quot;Flow&quot; implementing the virtual function &quot;execute&quot; with a exponential equation." alt="" coords="5,321,123,413"/>
+<area shape="rect" id="node3" href="$class_logis_flow.html" title="A Class that inherits &quot;Flow&quot; implementing the virtual function &quot;execute&quot; with a logistic equation." alt="" coords="147,321,259,413"/>
+</map>
