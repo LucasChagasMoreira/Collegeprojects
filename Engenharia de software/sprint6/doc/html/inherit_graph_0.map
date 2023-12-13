@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_body.html" title="The class Implementation was implemented based on the class teCounted writed by Ricardo Cartaxo and G..." alt="" coords="5,107,60,133"/>
+<area shape="rect" id="node2" href="$class_flow___impl.html" title="Implementation of Flow&#39;s methods." alt="" coords="117,56,206,83"/>
+<area shape="rect" id="node6" href="$class_model___impl.html" title="A Model is what integrates flows and systems." alt="" coords="112,107,211,133"/>
+<area shape="rect" id="node7" href="$class_system___impl.html" title="Implementation of System&#39;s methods." alt="" coords="108,157,215,184"/>
+<area shape="rect" id="node3" href="$class_complex.html" title="Representa um fluxo complexo." alt="" coords="291,5,371,32"/>
+<area shape="rect" id="node4" href="$class_exponential___flow.html" title="A Flow with an exponential equation." alt="" coords="263,56,400,83"/>
+<area shape="rect" id="node5" href="$class_logistic___flow.html" title="A Flow with a logistic equation." alt="" coords="276,107,387,133"/>
+</map>

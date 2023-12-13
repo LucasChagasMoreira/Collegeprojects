@@ -1,0 +1,12 @@
+<map id="System::getName" name="System::getName">
+<area shape="rect" id="node1" title="getter of the name" alt="" coords="567,132,705,159"/>
+<area shape="rect" id="node2" href="$funcional__tests_8hpp.html#a943dfe0c597a01c9760c140715fed527" title="Função de teste para um caso complexo." alt="" coords="335,5,502,32"/>
+<area shape="rect" id="node4" href="$class_system___impl.html#a517f471f6fd224c7bab4125f83f06d1d" title=" " alt="" coords="328,56,509,83"/>
+<area shape="rect" id="node5" href="$class_system___impl.html#a2c9eb213b9dd43ce79b09c116f0f1c42" title=" " alt="" coords="319,107,519,133"/>
+<area shape="rect" id="node6" href="$unit___system_8cpp.html#a6a39fd054412469cd77649218d3ecceb" title="This function does the unit test of the Constructor." alt="" coords="327,157,510,184"/>
+<area shape="rect" id="node9" href="$unit___system_8cpp.html#a672a51794472bbde676a33115e003b15" title="This function does the unit test of the get Name." alt="" coords="333,208,504,235"/>
+<area shape="rect" id="node10" href="$unit___system_8cpp.html#a470f565c55f643e387d5cc7005cab1ea" title="This function does the unit test of the set Name." alt="" coords="334,259,503,285"/>
+<area shape="rect" id="node3" href="$funcional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="162,5,217,32"/>
+<area shape="rect" id="node7" href="$unit___system_8cpp.html#a508d8501edd77719732fca2f7985d316" title="This function run the unit test of the system." alt="" coords="108,208,271,235"/>
+<area shape="rect" id="node8" href="$unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,208,60,235"/>
+</map>

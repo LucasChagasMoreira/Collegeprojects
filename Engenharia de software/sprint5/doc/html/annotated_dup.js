@@ -1,8 +1,12 @@
 var annotated_dup =
 [
-    [ "Expo_Flow", "class_expo___flow.html", "class_expo___flow" ],
+    [ "Complex", "class_complex.html", "class_complex" ],
+    [ "Exponential_Flow", "class_exponential___flow.html", "class_exponential___flow" ],
     [ "Flow", "class_flow.html", "class_flow" ],
-    [ "LogisFlow", "class_logis_flow.html", "class_logis_flow" ],
+    [ "Flow_Impl", "class_flow___impl.html", "class_flow___impl" ],
+    [ "Logistic_Flow", "class_logistic___flow.html", "class_logistic___flow" ],
     [ "Model", "class_model.html", "class_model" ],
-    [ "System", "class_system.html", "class_system" ]
+    [ "Model_Impl", "class_model___impl.html", "class_model___impl" ],
+    [ "System", "class_system.html", "class_system" ],
+    [ "System_Impl", "class_system___impl.html", "class_system___impl" ]
 ];

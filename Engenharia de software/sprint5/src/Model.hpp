@@ -7,7 +7,6 @@
     
     #include "Flow.hpp"
     #include "System.hpp"
-
     /// A Model is what integrates flows and systems.
     ///
     /// By creating a model, you can run() simulations.

@@ -52,7 +52,7 @@ void unit_Model_remove(){
     assert(creator->getSystemSize() == 0);
     creator->remove(m2);
     assert(creator->getSystemSize() == 1);
-    delete creator
+    delete creator;
 }
 void unit_Model_constructor()
 {

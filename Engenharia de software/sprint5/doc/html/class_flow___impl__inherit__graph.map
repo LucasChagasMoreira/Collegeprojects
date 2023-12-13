@@ -1,0 +1,7 @@
+<map id="Flow_Impl" name="Flow_Impl">
+<area shape="rect" id="node1" title="Implementation of Flow&#39;s methods." alt="" coords="159,248,285,516"/>
+<area shape="rect" id="node3" href="$class_complex.html" title="Representa um fluxo complexo." alt="" coords="5,586,111,678"/>
+<area shape="rect" id="node4" href="$class_exponential___flow.html" title="A Flow with an exponential equation." alt="" coords="135,564,309,700"/>
+<area shape="rect" id="node5" href="$class_logistic___flow.html" title="A Flow with a logistic equation." alt="" coords="333,564,479,700"/>
+<area shape="rect" id="node2" href="$class_flow.html" title="A Flow changes systems energy." alt="" coords="165,5,279,200"/>
+</map>

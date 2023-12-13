@@ -1,0 +1,8 @@
+<map id="ModelHandle::~ModelHandle" name="ModelHandle::~ModelHandle">
+<area shape="rect" id="node1" title="Virtual class destructor." alt="" coords="5,56,219,83"/>
+<area shape="rect" id="node2" href="$class_model___impl.html#a00fa14ca85fa1e284cf9d6facbb66850" title=" " alt="" coords="282,5,465,32"/>
+<area shape="rect" id="node3" href="$class_model_handle.html#ab6c6716d818720f5b96cd86e0e07f067" title="Returns the iterator of the beginning of the models vector." alt="" coords="267,56,480,83"/>
+<area shape="rect" id="node5" href="$class_model_handle.html#acd168f5f276b34c9e4bfdbc6b002801d" title="Returns the iterator of the end of the models vector." alt="" coords="273,107,474,133"/>
+<area shape="rect" id="node4" href="$class_model___impl.html#a41abcb6391017d4aebfed00e61c19e19" title=" " alt="" coords="528,56,731,83"/>
+<area shape="rect" id="node6" href="$class_model___impl.html#a90d116f9deafd4a93f60e212330397be" title=" " alt="" coords="534,107,725,133"/>
+</map>

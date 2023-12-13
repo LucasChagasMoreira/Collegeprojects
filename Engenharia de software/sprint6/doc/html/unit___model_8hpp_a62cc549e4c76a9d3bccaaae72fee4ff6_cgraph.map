@@ -1,0 +1,11 @@
+<map id="unit_Model_clear" name="unit_Model_clear">
+<area shape="rect" id="node1" title="Function to perform the unit test of clearing." alt="" coords="5,132,139,159"/>
+<area shape="rect" id="node2" href="$class_model.html#a70d1a18b51f1184b56b101becefe71dc" title="remove all elements" alt="" coords="219,5,321,32"/>
+<area shape="rect" id="node3" href="$class_model.html#aaf421a22497b3023b773d0bb4bc80f55" title=" " alt="" coords="199,56,341,83"/>
+<area shape="rect" id="node5" href="$class_model.html#a3e267e8c78eebe47ecd274e2dbfff56f" title=" " alt="" coords="195,107,345,133"/>
+<area shape="rect" id="node7" href="$class_model.html#acf8fd9b68721d3fed72588e789bef7f8" title=" " alt="" coords="190,157,350,184"/>
+<area shape="rect" id="node8" href="$class_model.html#a7e7b0c2a71f4885ef268a88d225efc57" title="get the size of the flow container" alt="" coords="195,208,345,235"/>
+<area shape="rect" id="node9" href="$class_model.html#ac4eb8a0412f976745cde9ac1a396224e" title="get the size of the system container" alt="" coords="187,259,353,285"/>
+<area shape="rect" id="node4" href="$class_model.html#a70362afdd9db6268b4adaedfeddb2935" title="add a system in the container" alt="" coords="447,56,542,83"/>
+<area shape="rect" id="node6" href="$class_model___impl.html#aa7500fde6b52f8e10facb42f7826b365" title=" " alt="" coords="401,107,588,133"/>
+</map>

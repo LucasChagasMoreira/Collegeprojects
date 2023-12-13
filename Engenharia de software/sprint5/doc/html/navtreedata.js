@@ -24,7 +24,15 @@
 */
 var NAVTREE =
 [
-  [ "My Vensim", "index.html", [
+  [ "MyVensim", "index.html", [
+    [ "Summary_and_Examples", "_summary_and__examples.html", [
+      [ "Summary", "_summary_and__examples.html#Summary", null ],
+      [ "Examples", "_summary_and__examples.html#Examples", [
+        [ "1 - Create a subclass of Flow", "_summary_and__examples.html#inherited_flow", null ],
+        [ "2 - Implement the equation for the subclass", "_summary_and__examples.html#flow_equation", null ],
+        [ "3 - Use the API", "_summary_and__examples.html#program_example", null ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -40,7 +48,8 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
+        [ "Functions", "globals_func.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -48,7 +57,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_expo_flow_8cpp.html"
+"_exponential___flow_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

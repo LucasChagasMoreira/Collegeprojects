@@ -1,0 +1,6 @@
+<map id="SystemHandle::operator=" name="SystemHandle::operator=">
+<area shape="rect" id="node1" title="Defines how the &#39;=&#39; operator works for systems." alt="" coords="5,56,196,83"/>
+<area shape="rect" id="node2" href="$class_system_handle.html#ae0e8c19df92e41d60f2156562fd2bd52" title="Returns the system name." alt="" coords="244,5,429,32"/>
+<area shape="rect" id="node3" href="$class_system_handle.html#aeb69190853dc47d4c73ccd3928bfc3a1" title="Returns the system value." alt="" coords="245,56,428,83"/>
+<area shape="rect" id="node4" href="$class_system_handle.html#ab5d05c04ec8b4f8cc36abc70deba770d" title="Sets the system name." alt="" coords="245,107,429,133"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="System::setName" name="System::setName">
+<area shape="rect" id="node1" title="setter of the name" alt="" coords="557,31,696,57"/>
+<area shape="rect" id="node2" href="$class_system_handle.html#ab867a2c03686b08e151841ebb1f351d3" title="Defines how the &#39;=&#39; operator works for systems." alt="" coords="319,5,509,32"/>
+<area shape="rect" id="node3" href="$unit___system_8cpp.html#a470f565c55f643e387d5cc7005cab1ea" title="This function does the unit test of the set Name." alt="" coords="329,56,499,83"/>
+<area shape="rect" id="node4" href="$unit___system_8cpp.html#a508d8501edd77719732fca2f7985d316" title="This function run the unit test of the system." alt="" coords="108,56,271,83"/>
+<area shape="rect" id="node5" href="$unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
+</map>

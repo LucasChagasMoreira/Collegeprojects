@@ -1,0 +1,11 @@
+<map id="Model::run" name="Model::run">
+<area shape="rect" id="node1" title="Run a model simulation by passing the time information." alt="" coords="584,107,675,133"/>
+<area shape="rect" id="node2" href="$funcional__tests_8cpp.html#a943dfe0c597a01c9760c140715fed527" title="Teste funcional complexo envolvendo múltiplos sistemas e fluxos." alt="" coords="359,5,526,32"/>
+<area shape="rect" id="node4" href="$funcional__tests_8cpp.html#a2c448ffaffdff4b03c825a01dffa6f27" title="Teste funcional para fluxo exponencial." alt="" coords="349,56,536,83"/>
+<area shape="rect" id="node5" href="$funcional__tests_8cpp.html#a60914db64bde71b56d69320797266c29" title="Teste funcional para fluxo logístico." alt="" coords="358,107,527,133"/>
+<area shape="rect" id="node6" href="$unit___handle_body_8cpp.html#ae34a86d00f2e32c66ba3983cc97478cd" title=" " alt="" coords="108,157,301,184"/>
+<area shape="rect" id="node8" href="$unit___model_8cpp.html#a37286918320acd70d56642498fa32c18" title="Function to perform the unit test of running the model." alt="" coords="381,208,504,235"/>
+<area shape="rect" id="node3" href="$funcional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="177,56,232,83"/>
+<area shape="rect" id="node7" href="$unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,183,60,209"/>
+<area shape="rect" id="node9" href="$unit___model_8cpp.html#a2114674c26fbc871eec94221b3252a39" title="Function to run the unit test of the model." alt="" coords="127,208,282,235"/>
+</map>

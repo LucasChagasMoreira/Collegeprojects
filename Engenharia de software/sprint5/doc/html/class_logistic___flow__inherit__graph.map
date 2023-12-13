@@ -1,0 +1,5 @@
+<map id="Logistic_Flow" name="Logistic_Flow">
+<area shape="rect" id="node1" title="A Flow with a logistic equation." alt="" coords="5,564,152,700"/>
+<area shape="rect" id="node2" href="$class_flow___impl.html" title="Implementation of Flow&#39;s methods." alt="" coords="16,248,141,516"/>
+<area shape="rect" id="node3" href="$class_flow.html" title="A Flow changes systems energy." alt="" coords="22,5,135,200"/>
+</map>

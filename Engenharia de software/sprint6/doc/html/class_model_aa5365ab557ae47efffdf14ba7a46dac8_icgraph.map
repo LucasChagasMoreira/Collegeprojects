@@ -1,0 +1,10 @@
+<map id="Model::getName" name="Model::getName">
+<area shape="rect" id="node1" title="getter of the atribute &quot;name&quot;" alt="" coords="533,81,664,108"/>
+<area shape="rect" id="node2" href="$funcional__tests_8cpp.html#a943dfe0c597a01c9760c140715fed527" title="Teste funcional complexo envolvendo múltiplos sistemas e fluxos." alt="" coords="315,5,481,32"/>
+<area shape="rect" id="node4" href="$unit___model_8cpp.html#a33c89b15c9a9fa91b3753cba55af695b" title="Function to perform the unit test of the Constructor." alt="" coords="311,56,485,83"/>
+<area shape="rect" id="node7" href="$unit___model_8cpp.html#ae4af6259f0c230666091589c7e5692a0" title="Function to perform the unit test of getting the name." alt="" coords="317,107,479,133"/>
+<area shape="rect" id="node8" href="$unit___model_8cpp.html#a3e18033ba5152db576eeccd0eebafd20" title="Function to perform the unit test of setting the name." alt="" coords="318,157,478,184"/>
+<area shape="rect" id="node3" href="$funcional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="158,5,213,32"/>
+<area shape="rect" id="node5" href="$unit___model_8cpp.html#a2114674c26fbc871eec94221b3252a39" title="Function to run the unit test of the model." alt="" coords="108,107,263,133"/>
+<area shape="rect" id="node6" href="$unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,107,60,133"/>
+</map>

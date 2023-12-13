@@ -1,0 +1,17 @@
+<map id="run_unit_test_Flow" name="run_unit_test_Flow">
+<area shape="rect" id="node1" title="This function runs all unit tests for the Flow methods." alt="" coords="5,183,151,209"/>
+<area shape="rect" id="node2" href="$unit___flow_8cpp.html#abae010d669044ac8e9f87914b6cbeafe" title="This function does the unit test of the constructor." alt="" coords="199,107,364,133"/>
+<area shape="rect" id="node6" href="$unit___flow_8cpp.html#a5d5063d01336bb21034b1c46dbdb740a" title="This function does the unit test of the destructor." alt="" coords="202,360,361,387"/>
+<area shape="rect" id="node7" href="$unit___flow_8cpp.html#a7dcad29026912f67d033a190e6e35ca6" title="This function does the unit test of the Getname." alt="" coords="205,56,357,83"/>
+<area shape="rect" id="node8" href="$unit___flow_8cpp.html#a051a46a12fb9de9d973b46e683df1476" title="This function does the unit test of the getorigin." alt="" coords="205,157,357,184"/>
+<area shape="rect" id="node9" href="$unit___flow_8cpp.html#a89661cef89f6beb434f6097691c03538" title="This function does the unit test of the getTarget." alt="" coords="205,259,358,285"/>
+<area shape="rect" id="node10" href="$unit___flow_8cpp.html#aadf402251a021acf6fda7327b7a52320" title="This function does the unit test of the Setname." alt="" coords="206,5,357,32"/>
+<area shape="rect" id="node12" href="$unit___flow_8cpp.html#a39a7f5682559e21ce0b4cb6b0626f7fa" title="This function does the unit test of the setorigin." alt="" coords="206,208,357,235"/>
+<area shape="rect" id="node14" href="$unit___flow_8cpp.html#a0b2a81b6dbbc3c5b1b25874640705654" title="This function does the unit test of the setTarget." alt="" coords="205,309,357,336"/>
+<area shape="rect" id="node3" href="$class_flow.html#aa91a8025b6dbb27ee5137c7c9ad0c564" title="getter of the name" alt="" coords="413,56,533,83"/>
+<area shape="rect" id="node4" href="$class_flow.html#a21de7aeb084bf4422c59d14055fce72c" title="getter of the origin system" alt="" coords="413,157,533,184"/>
+<area shape="rect" id="node5" href="$class_flow.html#a81aeceffcb2b425af124c3b0d1962786" title="getter of the target system" alt="" coords="412,259,533,285"/>
+<area shape="rect" id="node11" href="$class_flow.html#a719883d550abcfcb9dfcd4a7e1b86443" title="setter of the name" alt="" coords="413,5,532,32"/>
+<area shape="rect" id="node13" href="$class_flow.html#aaf58128b15971caf91b786e5ba269ffa" title="setter of the origin system" alt="" coords="413,208,532,235"/>
+<area shape="rect" id="node15" href="$class_flow.html#a6121cf6e400af1aa8b4c9f9f2dc8e68b" title="setter of the target system" alt="" coords="413,309,533,336"/>
+</map>

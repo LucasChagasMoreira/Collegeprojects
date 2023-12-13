@@ -1,0 +1,4 @@
+<map id="System" name="System">
+<area shape="rect" id="node1" title="A System is a stock of energy." alt="" coords="20,5,133,156"/>
+<area shape="rect" id="node2" href="$class_system_handle.html" title=" " alt="" coords="5,204,148,428"/>
+</map>

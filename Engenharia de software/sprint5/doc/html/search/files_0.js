@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['expoflow_2ecpp_59',['ExpoFlow.cpp',['../_expo_flow_8cpp.html',1,'']]],
-  ['expoflow_2ehpp_60',['ExpoFlow.hpp',['../_expo_flow_8hpp.html',1,'']]]
+  ['exponential_5fflow_2ecpp_127',['Exponential_Flow.cpp',['../_exponential___flow_8cpp.html',1,'']]],
+  ['exponential_5fflow_2ehpp_128',['Exponential_Flow.hpp',['../_exponential___flow_8hpp.html',1,'']]]
 ];

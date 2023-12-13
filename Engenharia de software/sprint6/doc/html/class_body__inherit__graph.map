@@ -1,0 +1,9 @@
+<map id="Body" name="Body">
+<area shape="rect" id="node1" title="The class Implementation was implemented based on the class teCounted writed by Ricardo Cartaxo and G..." alt="" coords="325,5,428,141"/>
+<area shape="rect" id="node2" href="$class_flow___impl.html" title="Implementation of Flow&#39;s methods." alt="" coords="159,204,285,472"/>
+<area shape="rect" id="node6" href="$class_model___impl.html" title="A Model is what integrates flows and systems." alt="" coords="309,189,445,487"/>
+<area shape="rect" id="node7" href="$class_system___impl.html" title="Implementation of System&#39;s methods." alt="" coords="469,219,612,457"/>
+<area shape="rect" id="node3" href="$class_complex.html" title="Representa um fluxo complexo." alt="" coords="5,542,111,663"/>
+<area shape="rect" id="node4" href="$class_exponential___flow.html" title="A Flow with an exponential equation." alt="" coords="135,535,309,671"/>
+<area shape="rect" id="node5" href="$class_logistic___flow.html" title="A Flow with a logistic equation." alt="" coords="333,535,479,671"/>
+</map>

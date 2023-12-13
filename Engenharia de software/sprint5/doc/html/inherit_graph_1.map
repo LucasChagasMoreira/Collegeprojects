@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_model.html" title="A Model unites flows and systems. By creating a model, you can run() method to start the simulations." alt="" coords="5,5,68,32"/>
+<area shape="rect" id="node1" href="$class_model.html" title="A Model is what integrates flows and systems." alt="" coords="5,5,68,32"/>
+<area shape="rect" id="node2" href="$class_model___impl.html" title="A Model is what integrates flows and systems." alt="" coords="116,5,215,32"/>
 </map>

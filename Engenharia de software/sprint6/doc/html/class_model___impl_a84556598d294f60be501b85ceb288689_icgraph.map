@@ -1,0 +1,4 @@
+<map id="Model_Impl::remove" name="Model_Impl::remove">
+<area shape="rect" id="node1" title=" " alt="" coords="220,5,376,32"/>
+<area shape="rect" id="node2" href="$class_model_handle.html#ae8847c01af5fa7f4df6d84bfb58843a1" title="Removes the system pointer &#39;s&#39; of the systems vector and deletes it of the memory." alt="" coords="5,5,172,32"/>
+</map>

@@ -1,4 +1,0 @@
-<map id="unit_Model_run" name="unit_Model_run">
-<area shape="rect" id="node1" title="This function does the unit test of the run." alt="" coords="5,5,128,32"/>
-<area shape="rect" id="node2" href="$class_model.html#a4ff5eb3fd50c1853d975bd1e39736c63" title="Run a model simulation by passing the time information." alt="" coords="176,5,267,32"/>
-</map>

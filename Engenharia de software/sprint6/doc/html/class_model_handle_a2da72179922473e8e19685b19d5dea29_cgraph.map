@@ -1,0 +1,4 @@
+<map id="ModelHandle::getFlowBegin" name="ModelHandle::getFlowBegin">
+<area shape="rect" id="node1" title="Returns the iterator of the beginning of the flows vector." alt="" coords="5,5,211,32"/>
+<area shape="rect" id="node2" href="$class_model___impl.html#a0d3912727eb0813a96c03cd8e238875d" title=" " alt="" coords="259,5,453,32"/>
+</map>

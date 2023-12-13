@@ -1,0 +1,4 @@
+<map id="ModelHandle::getFlowEnd" name="ModelHandle::getFlowEnd">
+<area shape="rect" id="node1" title="Returns the iterator of the end of the flows vector." alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node2" href="$class_model___impl.html#ad8ad8d7c30f7efcfb69f4d9296a3be4c" title=" " alt="" coords="245,5,428,32"/>
+</map>

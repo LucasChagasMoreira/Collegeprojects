@@ -1,0 +1,4 @@
+<map id="unit_Flow_getOrigin" name="unit_Flow_getOrigin">
+<area shape="rect" id="node1" title="This function does the unit test of the getorigin." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node2" href="$class_flow.html#a21de7aeb084bf4422c59d14055fce72c" title="getter of the origin system" alt="" coords="205,5,325,32"/>
+</map>

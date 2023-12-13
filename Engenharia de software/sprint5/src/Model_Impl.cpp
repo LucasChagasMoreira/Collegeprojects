@@ -183,7 +183,7 @@ int Model_Impl::run(int ini_time, int fin_time)
     vector<double> flow_values;
     const double flow_init_value = 0.0;
 
-    for (int i = 0; i < flow_list.size(); i++)
+    for (int i = 0; i < int(flow_list.size()); i++)
         flow_values.push_back(flow_init_value);
     
     int i, j;
@@ -191,7 +191,7 @@ int Model_Impl::run(int ini_time, int fin_time)
     {
         i = 0;
         flow_iterator = flow_list.begin();
-        while (i < flow_list.size())
+        while (i < int(flow_list.size()))
         {
             flow_values[i] = (*flow_iterator)->execute();
             flow_iterator++;
@@ -199,7 +199,7 @@ int Model_Impl::run(int ini_time, int fin_time)
         }
 
         j = 0;
-        while (j < flow_list.size())
+        while (j < int(flow_list.size()))
         {
             origin_system = flow_list[j]->getOrigin();
             origin_system->setValue(origin_system->getValue() - flow_values[j]);

@@ -1,0 +1,5 @@
+<map id="FlowHandle::operator=" name="FlowHandle::operator=">
+<area shape="rect" id="node1" title="Defines how the &#39;=&#39; operator works for flows." alt="" coords="5,31,179,57"/>
+<area shape="rect" id="node2" href="$class_flow.html#a21de7aeb084bf4422c59d14055fce72c" title="getter of the origin system" alt="" coords="227,5,347,32"/>
+<area shape="rect" id="node3" href="$class_flow.html#a81aeceffcb2b425af124c3b0d1962786" title="getter of the target system" alt="" coords="227,56,348,83"/>
+</map>

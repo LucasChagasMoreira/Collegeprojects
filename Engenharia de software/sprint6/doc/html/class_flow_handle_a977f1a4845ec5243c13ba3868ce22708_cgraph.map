@@ -1,0 +1,5 @@
+<map id="FlowHandle::FlowHandle" name="FlowHandle::FlowHandle">
+<area shape="rect" id="node1" title="Constructor for copy of flow." alt="" coords="5,31,189,57"/>
+<area shape="rect" id="node2" href="$class_flow.html#a21de7aeb084bf4422c59d14055fce72c" title="getter of the origin system" alt="" coords="238,5,358,32"/>
+<area shape="rect" id="node3" href="$class_flow.html#a81aeceffcb2b425af124c3b0d1962786" title="getter of the target system" alt="" coords="237,56,359,83"/>
+</map>
