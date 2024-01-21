@@ -9,7 +9,7 @@ from constantes import ADDR, FORMAT, HEADER, DISCONECT, PORT, SERVER
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 client.connect(ADDR)
 
-
+print(client.recv(2048).decode(FORMAT))
 def send(msg):
     #realiza o encode para binario da mensagem
     mensagem = msg.encode(FORMAT)
@@ -24,9 +24,14 @@ def send(msg):
     #enviando a mensagem
     client.send(mensagem)
 
-    print(client.recv(2048).decode(FORMAT))
+    #print(client.recv(2048).decode(FORMAT))
 
+while(True):
+    mensagem = input()
+    
+    send(mensagem)
+    if mensagem == "/DISCONECT":
+        
+        break
 
-mensagem = input()
-send(mensagem)
-send("/DISCONECT")
+client.close()

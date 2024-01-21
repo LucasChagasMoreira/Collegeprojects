@@ -14,6 +14,8 @@ server.bind(ADDR)
 def handle_client(connect, endereco):
     print(f'[NEW CONNECTION] {endereco} conectou')
     
+    connect.send("digite seu nome".encode(FORMAT))
+    
     connected = True
     while connected:
         #recebe a primeira mensagem que ira definir o tamanho da mensagem_Final
@@ -29,7 +31,7 @@ def handle_client(connect, endereco):
                 connected = False
 
             print(f'[{endereco}] {mensagem_final}')
-            connect.send("mensagem recebida".encode(FORMAT))
+            #connect.send("mensagem recebida".encode(FORMAT))
 
     #finaliza a conecçao
     connect.close()
@@ -37,15 +39,18 @@ def handle_client(connect, endereco):
 #funçao responsavel por iniciar o servidor
 def start():
     #faz com que o servidor fique disponivel a conecções
+    conneccoes_ativas = []
     server.listen()
     print(f'[LISTENING] servidor escutando em {SERVER}')
     while True:
         #aceita conecçao com algum cliente
         connect,endereco = server.accept()
+        conneccoes_ativas.append(endereco)
         #inicia um thread para cuidar do cliente atravez da funçao handle_cliente
         thread = threading.Thread(target=handle_client,args=(connect,endereco))
         thread.start()
         print(f'[conecções ativas] {threading.active_count()-1}')
+        print(conneccoes_ativas)
 
 
 print("[INICIANDO O SERVIDOR]")
