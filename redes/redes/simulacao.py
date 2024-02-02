@@ -10,32 +10,22 @@ server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 #Conecta o objeto socket "server" ao endereço
 server.bind(ADDR)
 
+conexoes = {}
 
 #função que lida com mensagens recebidas por um cliente conectado
 def handle_client(connect, endereco):
     print(f'[NEW CONNECTION] {endereco} conectou')
+    global conexoes
+    
+    conexoes[endereco] = connect
     
     connect.send("digite seu nome".encode(FORMAT))
-    
-    connected = True
-    while connected:
-        #recebe a primeira mensagem que ira definir o tamanho da mensagem_Final
-        mensagem = connect.recv(HEADER).decode(FORMAT)
-        #verifica se é uma mensagem valida
-        if mensagem:
-            #converte este tamanho para um numero inteiro
-            mensagem = int(mensagem)
-            #recebe a mensagem propriamente dita
-            mensagem_final = connect.recv(mensagem).decode(FORMAT)
-            #verificaçao para saber se o cliente quer se desconectar
-            if mensagem_final == DISCONECT:
-                connected = False
+    connect.recv(1024).decode(FORMAT)
 
-            print(f'[{endereco}] {mensagem_final}')
-            #connect.send("mensagem recebida".encode(FORMAT))
+    print("thread encerrada")
 
     #finaliza a conecçao
-    connect.close()
+    #connect.close()
 
 #funçao responsavel por iniciar o servidor
 def start():
@@ -43,16 +33,33 @@ def start():
     conneccoes_ativas = []
     server.listen()
     print(f'[LISTENING] servidor escutando em {SERVER}')
-    while True:
+    while len(conneccoes_ativas) < 3:
         #aceita conecçao com algum cliente
         connect,endereco = server.accept()
+        #salvando o endereço em um vetor
         conneccoes_ativas.append(endereco)
         #inicia um thread para cuidar do cliente atravez da funçao handle_cliente
         thread = threading.Thread(target=handle_client,args=(connect,endereco))
         thread.start()
         print(f'[conecções ativas] {threading.active_count()-1}')
-        print(conneccoes_ativas)
-        
+    
+    #enviando mensagem para cada cliente conectado.
+    for i in range(len(conneccoes_ativas)):
+        enviar_mensagem_para_cliente(conneccoes_ativas[i], "\o/")
+
+
+def enviar_mensagem_para_cliente(endereco, mensagem):
+    global conexoes
+    if endereco in conexoes:
+        cliente_socket = conexoes[endereco]
+        try:
+            cliente_socket.sendall(mensagem.encode(FORMAT))
+        except:
+            # Lidar com a exceção se a conexão estiver fechada ou ocorrer um erro de envio
+            print(f"Erro ao enviar mensagem para {endereco}")
+    else:
+        print(f"Cliente {endereco} não encontrado.")
+
 
 
 print("[INICIANDO O SERVIDOR]")

@@ -10,7 +10,7 @@ client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 client.connect(ADDR)
 
 print(client.recv(2048).decode(FORMAT))
-def send(msg):
+def send(client,msg):
     #realiza o encode para binario da mensagem
     mensagem = msg.encode(FORMAT)
     #obtem o inteiro referente ao tamanho da mensagem em binario 
@@ -26,12 +26,5 @@ def send(msg):
 
     #print(client.recv(2048).decode(FORMAT))
 
-while(True):
-    mensagem = input()
-    
-    send(mensagem)
-    if mensagem == "/DISCONECT":
-        
-        break
 
 client.close()
