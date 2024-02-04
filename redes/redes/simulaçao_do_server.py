@@ -25,10 +25,12 @@ def handle_client(connect,endereco,enderecos):
 
 
 
+
 def conectar_jogadores():
     global conexoes
     start_time = time.time()
     enderecos = []
+    lista_threads = []
     qtd_threads = 0
     while qtd_threads < 2 and time.time() - start_time < 30:
         threads_ativas = threading.active_count()-1
@@ -39,9 +41,9 @@ def conectar_jogadores():
         #inicia um thread para cuidar do cliente atravez da funçao handle_cliente
         thread = threading.Thread(target=handle_client,args=(connect,endereco,enderecos))
         thread.start()
+        lista_threads.append(thread)
         qtd_threads += 1
         print(f'[conecções ativas] {qtd_threads}')
-    
         
 
     if qtd_threads >= 2:
@@ -50,11 +52,12 @@ def conectar_jogadores():
         print("Tempo limite atingido, encerrando a função.")
 
     # Esperar que todas as threads terminem
-    for thread in threading.enumerate():
-        if thread != threading.current_thread():
+    for thread in lista_threads:
             thread.join()
     
-    return enderecos
+    print(enderecos)
+    return enderecos    
+
 def envia_para_todos(mensagem,grupo_de_jogadores):
     global conexoes
 
